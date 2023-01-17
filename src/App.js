@@ -23,7 +23,7 @@ function App() {
   setCalc(eval(calc).toString());
  }
 const delLast=()=>{
-  if(calc=='')return;
+  if(calc==='')return;
 
   const value=calc.slice(0,-1);
   setCalc(value);
